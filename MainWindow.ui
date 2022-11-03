@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>625</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>2022 CvDl Hw1_04</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBoxSIFT">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>281</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>4. SIFT</string>
+    </property>
+    <widget class="QPushButton" name="pushButtonLoadImage1">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load Image 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonShowKeypoints">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>300</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.1 Keypoints</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonLoadImage2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load Image 2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonShowMatchedKeypoints">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>410</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4.2 Matched Keypoints</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
